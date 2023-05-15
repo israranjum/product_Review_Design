@@ -1,0 +1,116 @@
+.box-DesignRating {
+  border: 1px solid #f9ede5;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.125rem;
+  padding: 10px;
+  background-color: #fffbf8;
+  display: flex;
+  /* max-width: 100%; */
+
+  min-height: 150px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-container {
+  background-color: rgba(208, 1, 27, 0.08);
+}
+
+.box-design-inside {
+  padding-left: 20px;
+}
+.mainProductRating {
+  padding-left: 30px;
+  padding-top: 50px;
+  background-color: white;
+  /* border: 1px solid; */
+  min-width: 800px;
+  width: auto;
+}
+.starRatingDesign {
+  font-size: x-large;
+  color: #d0011b;
+}
+
+.heading_review {
+  color: #d0011b;
+}
+
+.review_button_design {
+  min-width: 90px;
+  margin: 5px;
+  border-radius: 0%;
+  color: black;
+  border-color: darkgrey;
+}
+
+.review_button_design:hover {
+  border-color: #ee4d2d;
+  color: #ee4d2d;
+}
+
+.starRatingDesign_pageui {
+  color: #d0011b;
+  font-size: small;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+/* UserRatingUI Desing */
+.review_Comment_container {
+  display: flex;
+  min-width: 650px;
+  /* width: 900px; */
+  /* height: 250px; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  padding: 10px;
+  background-color: white;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.review_avatar {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.review_comment_data {
+  padding-left: 15px;
+  word-wrap: break-word !important;
+  line-height: 90%;
+}
+
+.review-data-desc {
+  width: fit-content;
+}
+.review_data_content {
+  padding-left: 15px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1314px) {
+  .box-DesignRating {
+    width: 98%;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .box-DesignRating {
+    max-width: 900px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .box-DesignRating {
+    max-width: 765px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .box-DesignRating {
+    max-width: 700px;
+    margin-right: 10px;
+  }
+}
